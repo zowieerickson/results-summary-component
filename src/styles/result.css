@@ -1,0 +1,43 @@
+.results {
+    padding: 2em 3em;
+    max-width: 240px;
+    color: #fff;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    border-radius: 32px;
+}
+
+.result-title {
+    margin-bottom: 1.75em;
+}
+
+.result-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 1.75em;
+}
+
+.result-score-exact {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: .05em;
+}
+
+.result-assessment {
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
