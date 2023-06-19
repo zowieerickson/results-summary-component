@@ -11,3 +11,10 @@
   background-color: #fff;
   border-radius: 33.5px;
 }
+
+@media screen and (max-width: 734px) {
+  .results-summary {
+    display: flex;
+    flex-direction: column;
+  }
+}
