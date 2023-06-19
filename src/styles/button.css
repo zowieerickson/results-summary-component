@@ -1,0 +1,15 @@
+button {
+    width: 100%;
+    padding: 1em 2em;
+    color: #fff;
+    font-weight: 700;
+    line-height: 23px;
+    background: #303B59;
+    border-radius: 128px;
+    border: none;
+    cursor: pointer;
+}
+
+button:active {
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}

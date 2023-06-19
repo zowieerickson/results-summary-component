@@ -3,6 +3,7 @@ import reactionLogo from '../assets/images/icon-reaction.svg'
 import memoryLogo from '../assets/images/icon-memory.svg'
 import verbalLogo from '../assets/images/icon-verbal.svg'
 import visualLogo from '../assets/images/icon-visual.svg'
+import Button from './Button'
 
 export default function Summary() {
     return (
@@ -62,6 +63,7 @@ export default function Summary() {
                     </div>
                 </div>
             </div>
+            <Button>Continue</Button>
        </section>
     )
 }
