@@ -1,13 +1,13 @@
 .results {
     padding: 2em 3em;
-    max-width: 240px;
+    width: 320px;
     color: #fff;
     background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
     border-radius: 32px;
 }
 
 .result-title {
-    margin-bottom: 1.75em;
+    margin-bottom: 1.5em;
 }
 
 .result-score {
