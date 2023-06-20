@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #fff;
-    padding: 2em 2em;
+    padding: 3em 2em;
     width: 320px;
     color: #303B59;
     border-radius: 32px;
@@ -11,12 +11,14 @@
 
 .summary-title {
     text-align: left;
+    margin-bottom: 1em;
 }
 
 .summary-categories {
     display: flex;
     flex-direction: column;
-    gap: 1.1em
+    gap: 1.1em;
+    margin-bottom: 2em;
 }
 
 .summary-category {
