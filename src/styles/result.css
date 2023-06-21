@@ -6,6 +6,14 @@
     border-radius: 32px;
 }
 
+@media screen and (max-width: 425px) {
+    .results {
+      width: 100%;
+      padding: 1.5em 3em;
+      border-radius: 0px 0px 32px 32px;
+    }
+  }
+
 .result-title {
     margin-bottom: 1.5em;
 }

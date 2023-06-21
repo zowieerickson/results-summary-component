@@ -11,6 +11,13 @@ button {
     cursor: pointer;
 }
 
+@media screen and (max-width: 425px) {
+    button {
+        font-size: 18px;
+        padding: 17px 2em;
+    }
+}
+
 button:active {
     background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
 }

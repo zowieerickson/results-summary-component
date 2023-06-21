@@ -9,9 +9,24 @@
     border-radius: 32px;
 }
 
+@media screen and (max-width: 425px) {
+    .summary {
+      width: 100%;
+      padding: 1.5em 2em;
+      border-radius: 0px 0px 32px 32px;
+    }
+}
+
 .summary-title {
     text-align: left;
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 425px) {
+    .summary-title {
+        text-align: left;
+        margin-bottom: 24px;
+    }
 }
 
 .summary-categories {
@@ -19,6 +34,13 @@
     flex-direction: column;
     gap: 1.1em;
     margin-bottom: 2em;
+}
+
+@media screen and (max-width: 425px) {
+    .summary-categories {
+        gap: 16px;
+        margin-bottom: 24px;
+    }
 }
 
 .summary-category {
@@ -38,6 +60,7 @@
 
 .summary-score {
     color: #303B59;
+    font-weight: 700;
 }
 
 .summary-score-max {
