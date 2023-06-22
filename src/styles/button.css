@@ -2,6 +2,7 @@ button {
     width: 100%;
     padding: 1em 2em;
     color: #fff;
+    font-size: 18px;
     font-weight: 700;
     line-height: 23px;
     background: #303B59;
@@ -13,7 +14,6 @@ button {
 
 @media screen and (max-width: 425px) {
     button {
-        font-size: 18px;
         padding: 17px 2em;
     }
 }
