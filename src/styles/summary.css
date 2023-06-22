@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #fff;
-    padding: 3em 2em;
-    width: 320px;
+    padding: 38px 2em 46px;
+    width: 368px;
     color: #303B59;
     border-radius: 32px;
 }
@@ -19,7 +19,8 @@
 
 .summary-title {
     text-align: left;
-    margin-bottom: 1em;
+    margin-bottom: 28px;
+    line-height: 24px;
 }
 
 @media screen and (max-width: 425px) {
@@ -32,8 +33,8 @@
 .summary-categories {
     display: flex;
     flex-direction: column;
-    gap: 1.1em;
-    margin-bottom: 2em;
+    gap: 1em;
+    margin-bottom: 2.5em;
 }
 
 @media screen and (max-width: 425px) {
@@ -56,6 +57,7 @@
 
 .summary-category-title {
     display: flex;
+    font-weight: 500;
 }
 
 .summary-score {
