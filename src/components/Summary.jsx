@@ -11,7 +11,7 @@ export function SummaryCategory(props) {
             <div className="summary-category-title">
                 <img src={props.item.icon}
                 className="summary-category-image"
-                alt="" 
+                alt={`${props.item.category} icon`} 
                 width="20px"
                 />
                 <p>{props.item.category}</p>
